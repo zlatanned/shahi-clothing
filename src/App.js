@@ -4,13 +4,8 @@ import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
 import Header from './components/header/header.component.jsx';
+import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 import './App.css';
-
-const HatsPage = () => (
-  <div>
-    <h1>HATS PAGE </h1>
-  </div>
-);
 
 function App() {
   return (
@@ -18,8 +13,8 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<HomePage/>} />
-        <Route path='/hats' element={<HatsPage />} />
         <Route path='/shop' element={<ShopPage />} />
+        <Route path='/signin' element={<SignInAndSignUpPage />} />
       </Routes>
     </div>
   );
