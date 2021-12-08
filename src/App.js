@@ -23,8 +23,8 @@ class App extends React.Component {
     this.unsubscribeFromAuth = auth.onAuthStateChanged(user => {
       this.setState({ currentUser: user });
 
-      console.log(user.multiFactor.user.displayName);
-      console.log(user.multiFactor.user.email);
+      // console.log(user.multiFactor.user.displayName);
+      // console.log(user.multiFactor.user.email);
     });
   }
 
