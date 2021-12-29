@@ -26,7 +26,7 @@ const INITIAL_STATE = {
             linkUrl: 'shop/women'
         },
         {
-            title: 'mens',
+            title: 'men',
             imageUrl: 'https://sm.askmen.com/askmen_in/photo/default/untitled-design-2_kvwz.jpg',
             size: 'large',
             id: 5,
